@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710" role="img" aria-labelledby="title desc">
+<title id="title">Prévia ilustrativa da Vexa</title>
+<desc id="desc">Painel claro de atendimento com menu lateral, indicadores e lista de chamados fictícios.</desc>
+<rect width="1200" height="710" fill="#f1f4fa"/>
+<rect x="29" y="24" width="1142" height="662" rx="24" fill="#fff" stroke="#dfe5ef" stroke-width="2"/>
+<path d="M53 24h205v662H53c-13 0-24-11-24-24V48c0-13 11-24 24-24Z" fill="#fafbfe"/>
+<path d="M258 24v662" stroke="#e7ebf3" stroke-width="2"/>
+<text x="66" y="91" fill="#1e2c47" font-size="43" font-family="Arial, sans-serif" font-weight="700" letter-spacing="-4">vexa</text>
+<text x="68" y="116" fill="#78879f" font-size="9" font-family="Arial, sans-serif" font-weight="700" letter-spacing="1.2">ATENDIMENTO INTELIGENTE</text>
+<text x="68" y="184" fill="#a0adbf" font-size="11" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">VISÃO GERAL</text>
+<rect x="55" y="204" width="177" height="46" rx="10" fill="#e9edff"/>
+<rect x="70" y="219" width="16" height="16" rx="4" fill="#5065df"/>
+<text x="98" y="234" fill="#4053ba" font-size="16" font-family="Arial, sans-serif" font-weight="700">Chamados</text>
+<text x="74" y="287" fill="#6a7890" font-size="16" font-family="Arial, sans-serif">Indicadores</text>
+<path d="M259 92h912" stroke="#e8ecf4" stroke-width="2"/>
+<text x="299" y="65" fill="#8290a4" font-size="14" font-family="Arial, sans-serif">Workspace  ›  Central de atendimento</text>
+<rect x="1031" y="42" width="70" height="31" rx="15" fill="#eaf8f5" stroke="#cfece5"/>
+<circle cx="1046" cy="57" r="4" fill="#33b9a3"/>
+<text x="1056" y="62" fill="#268878" font-size="12" font-family="Arial, sans-serif" font-weight="700">Demo</text>
+<circle cx="1133" cy="57" r="18" fill="#dce4fb"/>
+<text x="1122" y="63" fill="#5063c6" font-size="13" font-family="Arial, sans-serif" font-weight="700">CR</text>
+<text x="299" y="143" fill="#5367d3" font-size="11" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">OPERAÇÃO · ATENDIMENTO</text>
+<text x="299" y="190" fill="#1c2b44" font-size="35" font-family="Arial, sans-serif" font-weight="700">Central de atendimento</text>
+<text x="300" y="216" fill="#7b899e" font-size="15" font-family="Arial, sans-serif">Acompanhe solicitações, responsáveis e prazos em um só lugar.</text>
+<rect x="299" y="252" width="196" height="126" rx="15" fill="#fff" stroke="#e3e8f1" stroke-width="2"/>
+<rect x="509" y="252" width="196" height="126" rx="15" fill="#fff" stroke="#e3e8f1" stroke-width="2"/>
+<rect x="719" y="252" width="196" height="126" rx="15" fill="#fff" stroke="#e3e8f1" stroke-width="2"/>
+<rect x="929" y="252" width="196" height="126" rx="15" fill="#fff" stroke="#e3e8f1" stroke-width="2"/>
+<text x="318" y="283" fill="#64758e" font-size="14" font-family="Arial, sans-serif">Todos os chamados</text>
+<text x="528" y="283" fill="#64758e" font-size="14" font-family="Arial, sans-serif">Abertos</text>
+<text x="738" y="283" fill="#64758e" font-size="14" font-family="Arial, sans-serif">Em atendimento</text>
+<text x="948" y="283" fill="#64758e" font-size="14" font-family="Arial, sans-serif">Prazo vencido</text>
+<text x="318" y="341" fill="#1d2d48" font-size="37" font-family="Arial, sans-serif" font-weight="700">12</text>
+<text x="528" y="341" fill="#1d2d48" font-size="37" font-family="Arial, sans-serif" font-weight="700">05</text>
+<text x="738" y="341" fill="#1d2d48" font-size="37" font-family="Arial, sans-serif" font-weight="700">04</text>
+<text x="948" y="341" fill="#1d2d48" font-size="37" font-family="Arial, sans-serif" font-weight="700">02</text>
+<rect x="299" y="403" width="826" height="220" rx="16" fill="#fff" stroke="#e3e8f1" stroke-width="2"/>
+<text x="321" y="443" fill="#1c2b44" font-size="22" font-family="Arial, sans-serif" font-weight="700">Chamados</text>
+<text x="321" y="464" fill="#8795a8" font-size="12" font-family="Arial, sans-serif">Gerencie as solicitações da equipe</text>
+<path d="M299 491h826M299 533h826M299 579h826" stroke="#edf0f5" stroke-width="2"/>
+<text x="321" y="519" fill="#9aa7b8" font-size="11" font-family="Arial, sans-serif" font-weight="700">CHAMADO</text>
+<text x="718" y="519" fill="#9aa7b8" font-size="11" font-family="Arial, sans-serif" font-weight="700">STATUS</text>
+<text x="938" y="519" fill="#9aa7b8" font-size="11" font-family="Arial, sans-serif" font-weight="700">PRIORIDADE</text>
+<text x="321" y="563" fill="#263750" font-size="14" font-family="Arial, sans-serif" font-weight="700">Acesso ao painel da equipe</text>
+<rect x="714" y="542" width="123" height="27" rx="7" fill="#eef1ff"/>
+<text x="727" y="560" fill="#5265cf" font-size="12" font-family="Arial, sans-serif" font-weight="700">Em atendimento</text>
+<text x="941" y="560" fill="#b47b2a" font-size="13" font-family="Arial, sans-serif" font-weight="700">Normal</text>
+<text x="321" y="607" fill="#263750" font-size="14" font-family="Arial, sans-serif" font-weight="700">Atualização de cadastro</text>
+<rect x="714" y="587" width="77" height="27" rx="7" fill="#eaf8f5"/>
+<text x="728" y="605" fill="#208776" font-size="12" font-family="Arial, sans-serif" font-weight="700">Resolvido</text>
+<text x="941" y="605" fill="#3b947f" font-size="13" font-family="Arial, sans-serif" font-weight="700">Baixa</text>
+<text x="299" y="658" fill="#95a2b4" font-size="12" font-family="Arial, sans-serif">Prévia ilustrativa da interface · Dados fictícios</text>
+</svg>

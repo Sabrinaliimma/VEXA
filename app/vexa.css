@@ -1,0 +1,192 @@
+/* Vexa: superfícies claras e leitura confortável em todas as áreas. */
+:root {
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #17233a;
+  --card: #ffffff;
+  --card-foreground: #17233a;
+  --popover: #ffffff;
+  --popover-foreground: #17233a;
+  --primary: #4b5ff1;
+  --primary-foreground: #ffffff;
+  --secondary: #f0f3fa;
+  --secondary-foreground: #26344d;
+  --muted: #f4f6fb;
+  --muted-foreground: #64748b;
+  --accent: #e9edff;
+  --accent-foreground: #3f4fc7;
+  --border: #e5eaf3;
+  --input: #d7dfeb;
+  --ring: #7b89f8;
+}
+body, .workspace, .main-area { background: #fff; color: #17233a; }
+.rail {
+  background: #fbfcff;
+  border-right: 1px solid #e6eaf3;
+  color: #394b67;
+  box-shadow: none;
+}
+.brand { gap: 11px; padding: 0 10px 45px; color: #17233a; }
+.brand-mark { width: 46px; height: 46px; flex: none; border-radius: 14px; background: #f0f3ff; box-shadow: none; }
+.brand-type { min-width: 0; }
+.brand strong { font: 800 30px/1 ui-sans-serif, Inter, system-ui, sans-serif; letter-spacing: -.075em; color: #182846; }
+.brand small { display: block; font-size: 8px; font-weight: 800; letter-spacing: .14em; color: #7b89a1; margin-top: 5px; white-space: nowrap; }
+.rail-group-label { color: #96a3b8; }
+.rail-link { color: #5c6d86; }
+.rail-link:hover { background: #eef1ff; color: #3d4db9; }
+.rail-link.active { color: #4353cd; background: #e9edff; box-shadow: inset 3px 0 #586af2; font-weight: 700; }
+.rail-count { background: #dbe2ff; color: #485acd; }
+.rail-divider { background: #e3e8f2; }
+.demo-tag { color: #7c8ba2; }
+.demo-tag svg { color: #25a8ae; }
+.demo-tag strong { color: #4b5c76; }
+.topbar { background: #fff; border-bottom-color: #e8ecf3; backdrop-filter: none; }
+.breadcrumb { color: #8290a5; }
+.breadcrumb strong { color: #36445d; }
+.environment-pill { background: #ecfaf7; border-color: #d1eee8; color: #207e76; }
+.environment-pill span { background: #31bba5; }
+.avatar { border: 2px solid #d6dcfc; box-shadow: 0 0 0 3px #f3f5ff; }
+.avatar img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 35%; border-radius: 50%; }
+.content { background: #fff; }
+.page-heading h1 { color: #18263f; }
+.eyebrow, .ticket-code { color: #5266d7; }
+.primary-button { background: #4b5ff1!important; color: #fff!important; box-shadow: 0 8px 18px #4b5ff12b; }
+.primary-button:hover { background: #394bd2!important; }
+.stat-card { background: #fff; border: 1px solid #e5eaf3; border-radius: 16px; box-shadow: 0 10px 28px #2439610a; }
+.stat-card:hover { border-color: #cbd3f4; }
+.tickets-panel { background: #fff; border: 1px solid #e4e9f2; border-radius: 17px; box-shadow: 0 14px 35px #2135550d; }
+.dialog-surface, .detail-sheet { background: #fff!important; color: #17233a!important; border-color: #e4e9f2!important; }
+.dialog-surface [data-slot=dialog-title], .detail-sheet [data-slot=sheet-title] { color: #17233a; }
+.dialog-surface [data-slot=dialog-description], .detail-sheet [data-slot=sheet-description] { color: #697991; }
+/* Indicadores da gestora */
+.report-intro h1 { color: #18263f; }
+.report-live { background: #ecfaf7; border-color: #d1eee8; color: #198076; }
+.report-live span { background: #31bba5; box-shadow: none; }
+.report-metric, .report-panel { background: #fff; border: 1px solid #e4e9f2; box-shadow: 0 12px 30px #2439610c; }
+.metric-glyph.mint { color: #158f83; background: #e4f8f4; }
+.metric-glyph.coral { color: #d16870; background: #fff0f0; }
+.metric-glyph.blue { color: #4964dc; background: #eaf0ff; }
+.metric-glyph.violet { color: #795fc8; background: #f2edff; }
+.report-metric>span:not(.metric-glyph), .report-metric small { color: #718198; }
+.report-metric strong { color: #172b48; }
+.report-section-head h2 { color: #22334e; }
+.report-section-head p, .report-hint { color: #7b8ba2; }
+.section-symbol { color: #5064d9; background: #eef1ff; border-color: #dce2fb; }
+.bar-label { color: #5b6e89; }
+.bar-label strong { color: #243954; }
+.bar-track { background: #e9edf5; }
+.workload-head, .workload-row { border-color: #e8ecf4; }
+.workload-head { color: #8c9aaf; }
+.workload-row { color: #4b5c75; }
+.workload-avatar { background: #e6edff; color: #4860c8; }
+.workload-avatar.vacant { background: #eef1f6; color: #8795a8; }
+.queue-count { background: #eef1ff; color: #4b5fc7; border-color: #dfe5fa; }
+.queue-row, .queue-empty { border-color: #e8ecf4; color: #687991; }
+.queue-row:hover, .queue-row:focus-visible { background: #f5f7ff; }
+.queue-ticket small { color: #4d61d8; }
+.queue-ticket strong { color: #24354f; }
+.qp-high, .queue-due.late { color: #c85061; }
+.qp-normal { color: #b37b28; }
+.qp-low { color: #1b8b77; }
+.queue-due, .queue-row>svg { color: #7889a3; }
+.report-loading { background: #f7f9ff; border-color: #e1e7f4; color: #566982; }
+.report-loading button { color: #455bd1; }
+@media(max-width:760px) {
+  .rail { background: #fbfcff; }
+  .brand { padding: 0; }
+  .brand-mark { width: 42px; height: 42px; }
+  .topbar { background: #fff; }
+}
+
+/* Identidade Vexa e movimento sutil. */
+@font-face {
+  font-family: "DM Sans";
+  src: url("/fonts/dm-sans-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root { --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif; }
+body { font-family: var(--font-sans); }
+.brand { align-items: center; gap: 10px; padding-left: 7px; padding-right: 3px; }
+.brand-mark { width: 45px; height: 45px; border-radius: 0; background: transparent; }
+.brand-type { flex: 1; min-width: 0; }
+.brand strong {
+  display: block;
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: .98;
+  letter-spacing: -.075em;
+  color: #1a2a4a;
+}
+.brand small {
+  display: block;
+  max-width: 100%;
+  margin-top: 7px;
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  font-size: 7.4px;
+  font-weight: 700;
+  letter-spacing: .065em;
+  line-height: 1.25;
+  white-space: normal;
+  overflow-wrap: normal;
+  color: #6f819e;
+}
+.page-heading h1, .report-intro h1, .panel-top h2 { font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif; }
+.rail-link, .stat-card, .report-metric, .report-panel, .tickets-panel,
+.ticket-row, .queue-row, .primary-button, .avatar {
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease,
+              background-color .22s ease, color .22s ease;
+}
+.rail-link:hover { transform: translateX(4px); }
+.stat-card:hover, .report-metric:hover {
+  transform: translateY(-4px);
+  border-color: #bdc7fa;
+  box-shadow: 0 18px 36px #4b5ff11a;
+}
+.report-panel:hover, .tickets-panel:hover { border-color: #d3daf2; box-shadow: 0 18px 38px #24396114; }
+.ticket-row:hover, .queue-row:hover { background: #f4f6ff; }
+.primary-button:hover { transform: translateY(-2px); box-shadow: 0 12px 24px #4b5ff13d; }
+.avatar:hover { transform: scale(1.08); box-shadow: 0 0 0 4px #e5eaff; }
+
+.page-heading, .report-intro { animation: vexa-enter .42s ease both; }
+.stat-card, .report-metric { animation: vexa-enter .48s ease both; }
+.stat-card:nth-child(2), .report-metric:nth-child(2) { animation-delay: .07s; }
+.stat-card:nth-child(3), .report-metric:nth-child(3) { animation-delay: .14s; }
+.stat-card:nth-child(4), .report-metric:nth-child(4) { animation-delay: .21s; }
+.tickets-panel, .reports-grid { animation: vexa-enter .5s .14s ease both; }
+@keyframes vexa-enter {
+  from { opacity: 0; transform: translateY(9px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-heading, .report-intro, .stat-card, .report-metric, .tickets-panel, .reports-grid { animation: none; }
+  .rail-link, .stat-card, .report-metric, .report-panel, .tickets-panel,
+  .ticket-row, .queue-row, .primary-button, .avatar { transition: none; }
+  .rail-link:hover, .stat-card:hover, .report-metric:hover,
+  .primary-button:hover, .avatar:hover { transform: none; }
+}
+
+/* Wordmark sem símbolo separado. */
+.brand { gap: 0; padding: 0 14px 44px; }
+.brand-type { width: 100%; }
+.brand strong {
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  font-size: 34px;
+  font-weight: 760;
+  line-height: .95;
+  letter-spacing: -.095em;
+  color: #1e2c47;
+  text-transform: lowercase;
+}
+.brand small {
+  margin-top: 9px;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: .125em;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.page-heading h1, .report-intro h1 { font-weight: 760; letter-spacing: -.052em; }
+@media(max-width:760px) { .brand { padding: 0; } .brand strong { font-size: 31px; } .brand small { font-size: 7.5px; } }
